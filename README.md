@@ -1,7 +1,7 @@
-# M.A.D.S. Hexagon Teaser
+# M.A.D.S. Hexagon Teaser — pacchetto Aruba
 
-Build statica pronta per Aruba. Vedi **LEGGIMI.txt** per il caricamento
-e **COSA-C-E-DI-NUOVO.txt** per le modifiche di questa versione.
+Build statica della versione approvata (postura operatore, niente inchino).
 
 Sorgente: https://github.com/carlogrecoph-dev/mads-hexagon-teaser
-Ricompilare con: `npm install && npm run build:aruba`
+
+Caricare questa cartella in `public_html/mads-hexagon/`.
