@@ -1,0 +1,84 @@
+M.A.D.S. HEXAGON TEASER — pacchetto completo per Aruba
+======================================================
+
+Dentro questo zip c'è la cartella  mads-hexagon  con TUTTO il necessario:
+app compilata, modello 3D, texture, immagini e configurazione server.
+Non serve PHP, non serve Node, non serve database. È un sito statico.
+
+
+COME CARICARLO
+--------------
+
+1. Estrai lo zip sul computer. Ottieni la cartella  mads-hexagon
+
+2. Entra in Aruba -> Gestione hosting -> File Manager
+   (oppure con FileZilla via FTP)
+
+3. Apri la cartella  public_html   (su alcuni piani si chiama www o httpdocs)
+
+4. Carica DENTRO public_html tutta la cartella  mads-hexagon
+   Il tuo sito attuale non va toccato.
+
+   Deve risultare così:
+
+     public_html/
+       (il tuo sito attuale)
+       mads-hexagon/
+         index.html
+         .htaccess
+         assets/
+         models/
+         textures/
+         brand/
+         samples/
+
+5. Apri:   https://TUODOMINIO.it/mads-hexagon/
+
+Puoi rinominare la cartella come vuoi (es. hexagon, teaser, studio):
+l'app funziona in qualsiasi sottocartella, anche annidata.
+
+
+ATTENZIONE AI FILE NASCOSTI
+---------------------------
+
+Il file  .htaccess  inizia con un punto e molti programmi lo nascondono.
+Se dopo l'upload vedi un elenco di file invece dell'app, o le pagine danno
+errore 404, è quasi sempre perché .htaccess non è stato caricato.
+In FileZilla: menu Server -> "Forza visualizzazione file nascosti".
+
+
+SE AGGIORNI UNA VERSIONE PRECEDENTE
+-----------------------------------
+
+SVUOTA la cartella prima di caricare la nuova. I file in  assets/  hanno un
+nome con un codice che cambia a ogni build: se resta la roba vecchia si
+accumula peso inutile e il browser può servire un misto delle due versioni.
+
+Dopo l'upload, la prima volta apri il sito e ricarica con CTRL+F5
+(su Mac CMD+SHIFT+R): l'app si installa anche offline e la ricarica forzata
+fa prendere la versione nuova.
+
+
+IL FILE PIÙ PESANTE
+-------------------
+
+models/female.vrm  pesa circa 16 MB. Aspetta che l'upload finisca davvero:
+se si interrompe, il personaggio 3D non compare e il resto funziona lo stesso.
+
+
+PROVARLO IN LOCALE, SENZA ARUBA
+-------------------------------
+
+Mac:      doppio clic su  Apri-Hexagon.command
+Windows:  doppio clic su  Apri-Hexagon.bat
+
+Serve Python installato. Si apre il browser da solo.
+Aprire index.html con un doppio clic NON funziona (i browser bloccano i
+moduli su file://): serve uno di questi due lanciatori, o Aruba.
+
+
+SUL TELEFONO
+------------
+
+Apri il link su Chrome o Safari -> menu Condividi -> "Aggiungi a Home".
+Dopo la prima apertura con internet, l'app resta utilizzabile offline.

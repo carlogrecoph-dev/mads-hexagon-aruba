@@ -1,0 +1,68 @@
+M.A.D.S. HEXAGON TEASER — cosa cambia in questa build
+=====================================================
+
+
+LE MANI SUL TOUCHSCREEN
+-----------------------
+
+Prima il motore appoggiava il PALMO sul vetro: le mani stavano spalmate
+sull'opera e le dita entravano dentro il monitor.
+
+Adesso il contatto è sul POLPASTRELLO. L'indice tocca, il polso resta alto,
+il palmo galleggia una decina di centimetri sopra la superficie, e un vincolo
+fisso impedisce a qualunque osso della mano di scendere sotto il vetro.
+
+Su ogni dettaglio la sequenza è quella vera di chi usa un tavolo touch:
+  1. punta l'indice sul punto
+  2. apre le due mani per ingrandire
+  3. trascina con un dito per navigare dentro il dettaglio
+  4. guarda
+  5. richiude
+
+Fra un gesto e l'altro le mani si staccano e passano in aria, invece di
+strisciare sull'opera. Quando sta solo guardando restano sospese sopra il
+punto, non tornano ai bordi.
+
+Tre regole fisiche nuove:
+  - la distanza fra le dita È l'ingrandimento (doppia apertura, doppia
+    immagine)
+  - nel trascinamento il pezzo di pittura afferrato resta sotto il dito per
+    tutta la scivolata
+  - le dita si articolano davvero: quelle che non lavorano si raccolgono
+
+Per arrivare onestamente al centro del tavolo ora si sporge dai fianchi
+quanto serve, e sta 12 cm più vicina al tavolo (prima era a 40 cm, distanza
+a cui nessuno lavora a uno schermo).
+
+
+LA MAPPA DELL'OPERA
+-------------------
+
+Prima il motore tagliava il percorso a 3 punti: ne mettevi sei, ne visitava
+tre, e gli altri restavano con il trattino mentre il pannello prometteva di
+visitarli tutti.
+
+Adesso:
+  - li visita TUTTI, nell'ordine in cui li metti
+  - allo zoom ESATTO che hai messo sullo slider (prima veniva ricompresso)
+  - il video si allunga da solo se metti molti punti, così ognuno ha il tempo
+    di essere letto
+  - il riquadro ha le proporzioni vere dell'opera, non più un 4:3 fisso
+  - il clic si aggancia al dettaglio che sta sotto il dito, e ne ricava lo
+    zoom che lo inquadra
+  - con la mappa selezionata, i tasti freccia spostano il punto di un soffio
+    (Shift = passo più largo)
+  - i pallini piccoli senza numero sono i suggerimenti automatici: cliccane
+    uno e entra nel percorso
+
+
+LA PERSONA
+----------
+
+Respira, batte le ciglia, ogni tanto stacca lo sguardo dal vetro e torna,
+cambia il peso da una gamba all'altra, ruota le spalle, ogni tanto si
+sgranchisce il collo. Tutto si azzittisce mentre le mani stanno lavorando,
+così non ruba la scena all'opera.
+
+È scritto come funzione del tempo e del seme: lo stesso seme dà lo stesso
+video, fotogramma per fotogramma.
